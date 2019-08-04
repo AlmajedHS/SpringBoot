@@ -1,6 +1,7 @@
 
 This repository contains an example of using SpringBoot java framework with a RESTful api
 
+
 You can test the project using the following requests in Postman or any similar tool:
 
 
@@ -16,7 +17,7 @@ Body:
 2-
 GET http://localhost:8080/student/allstudent
 
-	3-
+3-
 PUT http://localhost:8080/update/student
 Body:
 {
@@ -24,6 +25,8 @@ Body:
 	"age" : 1288,
 	"registrationNumber" : "11101"
 }
+
+
 4-
 Post http://localhost:8080/register/student
 Body:
@@ -32,6 +35,8 @@ Body:
 	"age" : 111,
 	"registrationNumber" : "120"
 }
+
+
 5- 
 Delete http://localhost:8080/delete/student
 	Body:
